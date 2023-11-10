@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Modal.scss';
 
 const Modal = ({ isOpen, toggleModal }) => {
@@ -8,7 +8,6 @@ const Modal = ({ isOpen, toggleModal }) => {
 		setIsModalOpen(!isModalOpen);
 		toggleModal();
 	};
-
 	return (
 		<div className={`login-container ${isModalOpen ? 'open-modal' : ''}`}>
 			{isModalOpen && (
