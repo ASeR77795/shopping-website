@@ -1,0 +1,111 @@
+.banner {
+	.cover {
+		display: flex;
+		position: relative;
+		justify-content: space-between;
+		border-radius: 59px;
+		background: #f4f6f5;
+		margin-bottom: 63px;
+		.content {
+			.title {
+				.white {
+					position: relative;
+					display: inline-block;
+					z-index: 1;
+					&::before {
+						content: '';
+						z-index: -1;
+						display: block;
+						position: absolute;
+						left: -40px;
+						width: 464.743px;
+						height: 112.14px;
+						transform: rotate(-2deg);
+						flex-shrink: 0;
+						background: #fff;
+					}
+				}
+				.yellow {
+					position: relative;
+					display: inline-block;
+					z-index: 1;
+					&::before {
+						content: '';
+						z-index: -1;
+						display: block;
+						position: absolute;
+						left: -40px;
+						background: #ebd96b;
+						width: 495.785px;
+						height: 117.55px;
+						transform: rotate(-2deg);
+						flex-shrink: 0;
+					}
+				}
+				display: flex;
+				flex-direction: column;
+				color: #000;
+
+				font-size: 96px;
+				font-style: normal;
+				font-weight: 900;
+				line-height: 120px;
+				padding: 77px 0 40px 119px;
+			}
+			.text {
+				color: #191818;
+				font-size: 32px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: normal;
+				letter-spacing: -1.6px;
+				padding: 0 0 32px 119px;
+			}
+			.box {
+				display: flex;
+				align-items: center;
+				padding: 0 0 90px 119px;
+
+				.button {
+					border-radius: 10px;
+					background: #000;
+					color: #fff;
+					font-size: 30px;
+					font-style: normal;
+					font-weight: 500;
+					line-height: normal;
+					letter-spacing: -1.5px;
+					padding: 19px 40px;
+					margin-left: 34px;
+				}
+			}
+		}
+		.photo {
+			align-self: flex-end;
+			.icon {
+				position: relative;
+				width: 58px;
+				height: 56.023px;
+			}
+			.star {
+				position: absolute;
+				right: 230px;
+			}
+			.star1 {
+				position: absolute;
+				left: 610px;
+				top: 96px;
+			}
+			.star2 {
+				position: absolute;
+				bottom: 117px;
+				right: 62px;
+			}
+			.star3 {
+				position: absolute;
+				bottom: 26px;
+				left: 659px;
+			}
+		}
+	}
+}

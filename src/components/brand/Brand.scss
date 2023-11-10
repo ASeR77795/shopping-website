@@ -1,0 +1,14 @@
+.brand {
+	background-color: hsl(52, 76%, 67%);
+	.tent {
+		display: flex;
+		justify-content: space-between;
+		padding: 60px 0 55px;
+	}
+	.box {
+		display: flex;
+		align-items: normal;
+		height: 70px;
+		width: 140px;
+	}
+}
