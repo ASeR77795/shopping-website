@@ -37,7 +37,12 @@
 				letter-spacing: -0.96px;
 			}
 			.btn-box {
+				border: none;
+				background-color: transparent;
 				align-self: center;
+				button:hover {
+					transform: scale(1.1);
+				}
 			}
 		}
 	}

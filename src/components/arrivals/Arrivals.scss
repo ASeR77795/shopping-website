@@ -30,6 +30,9 @@
 				display: flex;
 				justify-content: space-between;
 				align-items: center;
+				button:hover {
+					transform: scale(1.1);
+				}
 				h4 {
 					color: #191919;
 					font-size: 32px;

@@ -3,7 +3,7 @@ import './Join.scss';
 function Join() {
 	return (
 		<section className='join'>
-			<div className='box'>
+			<div className='box container'>
 				<h3 className='title'>JOIN SHOPPING COMMUNITY TO GET MONTHLY PROMO</h3>
 				<p className='text'>
 					Type your email down below and be young wild generation
