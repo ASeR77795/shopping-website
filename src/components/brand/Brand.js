@@ -8,22 +8,25 @@ import './Brand.scss';
 
 const Brand = () => {
 	return (
-		<section className='brand container'>
-			<div className='tent'>
-				<div className='box'>
-					<img src={logo2} />
-				</div>
-				<div className='box'>
-					<img src={logo3} />
-				</div>
-				<div className='box'>
-					<img src={logo4} />
-				</div>
-				<div className='box'>
-					<img src={logo5} />
-				</div>
-				<div className='box'>
-					<img src={logo6} />
+		<section className='brand'>
+			<div className='container'>
+				{' '}
+				<div className='brand__box'>
+					<div className='box'>
+						<img src={logo2} />
+					</div>
+					<div className='box'>
+						<img src={logo3} />
+					</div>
+					<div className='box'>
+						<img src={logo4} />
+					</div>
+					<div className='box'>
+						<img src={logo5} />
+					</div>
+					<div className='box'>
+						<img src={logo6} />
+					</div>
 				</div>
 			</div>
 		</section>

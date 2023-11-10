@@ -1,0 +1,47 @@
+.join {
+	background: #e5c643;
+	.box {
+		padding: 141px 450px;
+		.title {
+			color: #fff;
+			text-align: center;
+			font-size: 55px;
+			font-style: normal;
+			font-weight: 900;
+			line-height: 70px;
+			letter-spacing: 1.65px;
+		}
+		.text {
+			color: #fffcf8;
+			font-family: Poppins;
+			font-size: 32px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 35px;
+			letter-spacing: 0.96px;
+			margin: 37px 0 49px;
+		}
+		.form {
+			display: flex;
+			justify-content: space-between;
+			border-radius: 10px;
+			background: #fff;
+			.input {
+				padding: 35px 0 35px 27px;
+			}
+			.button {
+				color: #fff;
+				font-size: 33px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: 35px;
+				letter-spacing: 0.99px;
+				text-transform: capitalize;
+				border-radius: 8px;
+				background: #000;
+				padding: 15px 35px;
+				margin: 10px;
+			}
+		}
+	}
+}

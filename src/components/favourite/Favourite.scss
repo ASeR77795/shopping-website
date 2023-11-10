@@ -1,0 +1,44 @@
+.favourite {
+	margin: 190px 0 221px;
+	.title {
+		color: #000;
+		font-size: 48px;
+		font-style: normal;
+		font-weight: 900;
+		line-height: 50px;
+		letter-spacing: 2.88px;
+		padding-bottom: 144px;
+		background-image: url('../../img/leaf.png');
+		background-repeat: no-repeat;
+		background-position-x: 350px;
+		background-position-y: 25px;
+	}
+	.box {
+		display: flex;
+		gap: 48px;
+		.content {
+			display: flex;
+			justify-content: space-between;
+			.text {
+				color: #000;
+				font-size: 32px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: 50px;
+				letter-spacing: -1.28px;
+				padding-top: 28px;
+			}
+			.action {
+				color: #7f7f7f;
+				font-size: 24px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: 50px;
+				letter-spacing: -0.96px;
+			}
+			.btn-box {
+				align-self: center;
+			}
+		}
+	}
+}

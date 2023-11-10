@@ -1,0 +1,68 @@
+.footer {
+	background: #000;
+	.box {
+		padding: 119px 100px 147px;
+		display: flex;
+		justify-content: space-between;
+		.links {
+			max-width: 415px;
+			.title {
+				color: #fff;
+				font-size: 40px;
+				font-style: normal;
+				font-weight: 900;
+				line-height: normal;
+				letter-spacing: 1.2px;
+			}
+			.text {
+				color: #8e8e8e;
+				font-size: 24px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 40px;
+				letter-spacing: 0.48px;
+				padding: 32px 0;
+			}
+			.media {
+				img {
+					margin: 0 15px;
+				}
+			}
+		}
+		.link-menu {
+			display: flex;
+			gap: 188px;
+			.company {
+				display: flex;
+				flex-direction: column;
+			}
+			.quick {
+				display: flex;
+				flex-direction: column;
+			}
+			.legal {
+				display: flex;
+				flex-direction: column;
+			}
+			p {
+				color: #eaeaea;
+				font-family: Roboto;
+				font-size: 24px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 40px;
+				letter-spacing: 0.48px;
+			}
+			a {
+				align-self: baseline;
+				color: #7a7a7a;
+				font-family: Roboto;
+				font-size: 24px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 40px;
+				letter-spacing: 0.48px;
+			}
+		}
+	}
+}
