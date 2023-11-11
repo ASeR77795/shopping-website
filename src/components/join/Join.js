@@ -2,7 +2,7 @@ import React from 'react';
 import './Join.scss';
 function Join() {
 	return (
-		<section className='join'>
+		<section className='join container-lg'>
 			<div className='box container'>
 				<h3 className='title'>JOIN SHOPPING COMMUNITY TO GET MONTHLY PROMO</h3>
 				<p className='text'>

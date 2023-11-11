@@ -4,7 +4,7 @@ import photo from '../../img/sale_girl.png';
 
 const Sale = () => {
 	return (
-		<section className='sale'>
+		<section className='sale container-lg '>
 			<div className='box container'>
 				<div className='photo'>
 					<img src={photo} />

@@ -8,7 +8,7 @@ import './Brand.scss';
 
 const Brand = () => {
 	return (
-		<section className='brand'>
+		<section className='brand container-lg'>
 			<div className='container'>
 				{' '}
 				<div className='brand__box'>

@@ -7,7 +7,7 @@ import instagram from '../../img/link/insta.svg';
 const Footer = () => {
 	return (
 		<>
-			<footer className='footer'>
+			<footer className='footer container-lg'>
 				<div className='box container'>
 					<div className='links'>
 						<p className='title'>FASHION</p>
